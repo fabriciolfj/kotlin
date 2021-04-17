@@ -4,6 +4,6 @@ class SimulacaoListas {
 }
 
 fun main() {
-    var result = joinToString(listOf("fabricio", "lucas"))
+    var result = listOf("fabricio", "lucas").joinToString()
     print(result)
 }
